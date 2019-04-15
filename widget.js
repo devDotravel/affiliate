@@ -14,7 +14,7 @@ function insertData(id) {
 
 function getDoTravelGeneralCSS() {
   var myStyle = document.createElement('link');
-  myStyle.href = affUrl + 'DoTravel-General.css';
+  myStyle.href = affUrl + 'dotravelGeneral.min.css';
   myStyle.rel = 'stylesheet';
   document.getElementsByTagName('head')[0].appendChild(myStyle);
 }
